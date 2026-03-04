@@ -133,21 +133,20 @@ const About = () => {
 
                 <div className="prose prose-lg max-w-none">
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                    Hi, I'm Anshu Kumar Singh — a creative developer and designer based in New York. 
-                    I've spent the last 5 years helping startups and established brands build 
-                    beautiful, functional digital experiences.
+                    Hi, I'm Anshu Kumar Singh — a full stack website developer based in Jamshedpur, Jharkhand, India. 
+                    I've spent time in building beautiful, functional and responsive websites to gain digital experiences.
                   </p>
                   
                   <p className="text-gray-600 dark:text-gray-400 mb-6">
-                    My journey in tech began when I built my first website at 15. Since then, 
+                    My journey in tech began when I started learning JAVA during my school days. Since then, 
                     I've never stopped learning and creating. I believe that great design 
                     isn't just about how things look — it's about how they work and how they 
                     make people feel.
                   </p>
                   
                   <p className="text-gray-600 dark:text-gray-400 mb-8">
-                    When I'm not coding, you can find me hiking, reading, or experimenting 
-                    with new recipes. I'm passionate about creating things that make a 
+                    When I'm not coding, you can find me travelling, reading, or experimenting 
+                    with new things. I'm passionate about creating things that make a 
                     difference, whether that's through code, design, or community.
                   </p>
                 </div>

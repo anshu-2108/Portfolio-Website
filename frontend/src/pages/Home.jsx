@@ -46,7 +46,7 @@ const Home = () => {
     {
       id: 1,
       name: "TRENDS: E-Commerce Website",
-      description: "Real-time data visualization platform with machine learning insights",
+      description: "Full-featured e-commerce platform with cart, payments, and admin dashboard.",
       image: "Screenshot (50).png",
       technologies: ["React.js", "Next.js", "Express.js", "MongoDB", "Tailwind"],
       color: "from-purple-500 to-pink-500"
@@ -54,7 +54,7 @@ const Home = () => {
     {
       id: 2,
       name: "Educart: E-Learning Platform",
-      description: "Sustainable e-commerce platform with carbon footprint tracking",
+      description: "Interactive e-learning platform with courses, authentication, and progress tracking.",
       image: "Screenshot (51).png",
       technologies: ["React.js", "Next.js", "Express.js", "MongoDB"],
       color: "from-green-500 to-emerald-500"
@@ -62,7 +62,7 @@ const Home = () => {
     {
       id: 3,
       name: "FoodyLove: Food Ordering Website",
-      description: "Immersive digital portfolio with 3D interactions",
+      description: "Online food ordering platform with cart, payments, and order tracking",
       image: "Screenshot (52).png",
       technologies: ["React.js", "Next.js", "Express.js", "MongoDB"],
       color: "from-blue-500 to-cyan-500"
@@ -104,8 +104,8 @@ const Home = () => {
 
               <p className="text-gray-600 dark:text-gray-400 text-lg mb-8 leading-relaxed animate-fadeInUp animation-delay-400">
                 I craft beautiful, functional, and user-centered digital experiences. 
-                With experience in web development and design, I help brands 
-                bring their ideas to life.
+                With practical experience in web development and design, I help in 
+                bringing ideas to life.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-12 animate-fadeInUp animation-delay-600">

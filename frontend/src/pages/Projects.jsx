@@ -25,52 +25,52 @@ const Projects = () => {
       category: "web",
       tech: ["React", "Node.js", "MongoDB", "Stripe", "Redux", "Tailwind"],
       description: "Minimalist portfolio with smooth animations and responsive design.",
-      longDescription: "A modern portfolio website showcasing creative work with smooth scroll animations, dark mode, and fully responsive design that works beautifully on all devices.",
+      longDescription: "A modern portfolio website showcasing creative work with smooth scroll animations, and fully responsive design that works beautifully on all devices.",
       image: "Screenshot (53).png",
       color: "from-purple-500 to-pink-500",
       github: "#",
       live: "#",
       featured: true,
-      stats: { stars: 45, forks: 12, views: 2300 }
+      stats: { stars: 4, forks: 12, views: 150 }
     },
     {
       title: "TRENDS: E-Commerce Platform",
       category: "web",
-      tech: ["React Native", "Firebase", "Redux", "Expo", "Push Notifications"],
-      description: "Full-featured e-commerce platform with cart, payments, and admin dashboard",
+      tech: ["React", "Node.js", "MongoDB", "Stripe", "Redux", "Tailwind"],
+      description: "Full-featured e-commerce platform with cart, payments, and admin dashboard.",
       longDescription: "A complete e-commerce solution with user authentication, product management, shopping cart, secure payments via Stripe, and an admin dashboard for managing orders and inventory.",
       image: "Screenshot (50).png",
       color: "from-blue-500 to-cyan-500",
       github: "#",
       live: "#",
       featured: true,
-      stats: { stars: 32, forks: 8, views: 1800 }
+      stats: { stars: 4, forks: 8, views: 100 }
     },
     {
-      title: "Portfolio Website",
+      title: "Educart: E-Learning Platform",
       category: "web",
       tech: ["React", "Tailwind", "Framer Motion", "Vite"],
-      description: "Minimalist portfolio with smooth animations and responsive design.",
-      longDescription: "A modern portfolio website showcasing creative work with smooth scroll animations, dark mode, and fully responsive design that works beautifully on all devices.",
-      image: "Screenshot (51).png",
+      description: "Interactive e-learning platform with courses, authentication, and progress tracking.",
+  longDescription: "Educart is a complete e-learning solution that allows students to enroll in courses, watch video lectures, track progress, and take quizzes. It includes secure user authentication using JWT, role-based access for students and admins, course management system, and a responsive dashboard for monitoring learning activity.",
+  image: "Screenshot (51).png",
       color: "from-green-500 to-emerald-500",
       github: "#",
       live: "#",
       featured: false,
-      stats: { stars: 28, forks: 5, views: 1500 }
+      stats: { stars: 3, forks: 5, views: 55 }
     },
     {
-      title: "Weather Dashboard",
+      title: "FoodyLove: Food Ordering Website",
       category: "web",
-      tech: ["JavaScript", "Weather API", "Chart.js", "Geolocation"],
-      description: "Real-time weather app with interactive charts and forecasts.",
-      longDescription: "Beautiful weather application showing current conditions, 7-day forecast, and historical data with interactive charts. Includes location detection and search for cities worldwide.",
-      image: "Screenshot (52).png",
+      tech: ["React", "Tailwind", "Framer Motion", "Vite"],
+      description: "Online food ordering platform with cart, payments, and order tracking",
+  longDescription: "FoodyLove is a modern food ordering web application where users can browse restaurants, add food items to cart, and place orders securely using Stripe payment integration. It features real-time order tracking, user authentication, admin panel for restaurant and order management, and a fully responsive UI for smooth user experience.",
+  image: "Screenshot (52).png",
       color: "from-yellow-500 to-orange-500",
       github: "#",
       live: "#",
       featured: false,
-      stats: { stars: 19, forks: 4, views: 1200 }
+      stats: { stars: 3, forks: 4, views: 30 }
     },
     // {
     //   title: "Fitness Tracker",

@@ -9,7 +9,7 @@ import {
   FaHome,
   FaMoon,
   FaSun,
-  FaGithub,
+  FaGithub,FaGraduationCap,
   FaLinkedin
 } from 'react-icons/fa'
 
@@ -40,6 +40,7 @@ const Navbar = () => {
   const navLinks = [
     { to: '/', label: 'Home', icon: <FaHome className="w-4 h-4" /> },
     { to: '/about', label: 'About', icon: <FaUser className="w-4 h-4" /> },
+    { to: '/education', label: 'Education', icon: <FaGraduationCap className="w-4 h-4" /> },
     { to: '/projects', label: 'Projects', icon: <FaCode className="w-4 h-4" /> },
     { to: '/contact', label: 'Contact', icon: <FaEnvelope className="w-4 h-4" /> }
   ]
@@ -182,7 +183,7 @@ const Navbar = () => {
                 <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-linear-to-r from-purple-600 to-pink-600 p-0.5">
                   <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 flex items-center justify-center">
                     <span className="text-3xl font-bold bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                      <img src="/photo2.jpg" alt="Profile" />
+                      <img src="/photo2.jpg" className='rounded-full' alt="Profile" />
                     </span>
                   </div>
                 </div>
@@ -190,7 +191,7 @@ const Navbar = () => {
                   Anshu Kumar Singh
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Full Stack Developer
+                  Full Stack Website Developer
                 </p>
               </div>
 

@@ -69,7 +69,7 @@ const Footer = () => {
             
             <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-sm leading-relaxed">
               Creating meaningful digital experiences through code and design. 
-              Specialized in building modern web applications with React and Node.js.
+              Specialized in building modern web applications with modern libraries and frameworks.
             </p>
 
             {/* Tech Stack Pills */}
