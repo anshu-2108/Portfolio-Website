@@ -241,10 +241,10 @@ const Contact = () => {
   ]
 
   const socialLinks = [
-    { icon: <FaGithub className="w-5 h-5" />, href: "https://github.com/yourusername", label: "GitHub", color: "hover:text-gray-900 dark:hover:text-white" },
-    { icon: <FaLinkedin className="w-5 h-5" />, href: "https://linkedin.com/in/yourusername", label: "LinkedIn", color: "hover:text-blue-600" },
+    { icon: <FaGithub className="w-5 h-5" />, href: "https://github.com/anshu-2108", label: "GitHub", color: "hover:text-gray-900 dark:hover:text-white" },
+    { icon: <FaLinkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/anshu-kumar-singh-271136261", label: "LinkedIn", color: "hover:text-blue-600" },
     // { icon: <FaTwitter className="w-5 h-5" />, href: "https://twitter.com/yourusername", label: "Twitter", color: "hover:text-blue-400" },
-    { icon: <FaInstagram className="w-5 h-5" />, href: "https://instagram.com/yourusername", label: "Instagram", color: "hover:text-pink-600" },
+    { icon: <FaInstagram className="w-5 h-5" />, href: "https://www.instagram.com/_anshu_singh_official", label: "Instagram", color: "hover:text-pink-600" },
     // { icon: <FaDiscord className="w-5 h-5" />, href: "https://discord.com", label: "Discord", color: "hover:text-indigo-500" }
   ]
 

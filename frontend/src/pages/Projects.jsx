@@ -28,7 +28,7 @@ const Projects = () => {
       longDescription: "A modern portfolio website showcasing creative work with smooth scroll animations, and fully responsive design that works beautifully on all devices.",
       image: "Screenshot (53).png",
       color: "from-purple-500 to-pink-500",
-      github: "#",
+      github: "https://github.com/anshu-2108/Portfolio-Website",
       live: "#",
       featured: true,
       stats: { stars: 4, forks: 12, views: 150 }
@@ -41,7 +41,7 @@ const Projects = () => {
       longDescription: "A complete e-commerce solution with user authentication, product management, shopping cart, secure payments via Stripe, and an admin dashboard for managing orders and inventory.",
       image: "Screenshot (50).png",
       color: "from-blue-500 to-cyan-500",
-      github: "#",
+      github: "https://github.com/anshu-2108/TRENDS-E-Commerce-Web-Application",
       live: "#",
       featured: true,
       stats: { stars: 4, forks: 8, views: 100 }

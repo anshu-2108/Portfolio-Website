@@ -46,8 +46,8 @@ const Navbar = () => {
   ]
 
   const socialLinks = [
-    { icon: <FaGithub className="w-5 h-5" />, url: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: <FaLinkedin className="w-5 h-5" />, url: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' }
+    { icon: <FaGithub className="w-5 h-5" />, url: 'https://github.com/anshu-2108', label: 'GitHub' },
+    { icon: <FaLinkedin className="w-5 h-5" />, url: 'https://www.linkedin.com/in/anshu-kumar-singh-271136261', label: 'LinkedIn' }
   ]
 
   return (

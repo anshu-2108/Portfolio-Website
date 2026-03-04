@@ -130,8 +130,8 @@ const Home = () => {
               {/* Social Links */}
               <div className="flex items-center gap-6 animate-fadeInUp animation-delay-800">
                 {[
-                  { icon: <FaGithub className="w-5 h-5" />, href: "#", label: "GitHub", color: "hover:text-gray-900 dark:hover:text-white" },
-                  { icon: <FaLinkedin className="w-5 h-5" />, href: "#", label: "LinkedIn", color: "hover:text-blue-600" },
+                  { icon: <FaGithub className="w-5 h-5" />, href: "https://github.com/anshu-2108", label: "GitHub", color: "hover:text-gray-900 dark:hover:text-white" },
+                  { icon: <FaLinkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/anshu-kumar-singh-271136261", label: "LinkedIn", color: "hover:text-blue-600" },
                   // { icon: <FaTwitter className="w-5 h-5" />, href: "#", label: "Twitter", color: "hover:text-blue-400" }
                 ].map((social, index) => (
                   <a
