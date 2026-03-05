@@ -157,6 +157,35 @@ app.post('/api/newsletter', async (req, res) => {
   }
 })
 
+app.get('/api/messages', async (req, res) => {
+  try {
+    const page = parseInt(req.query.page) || 1
+    const limit = parseInt(req.query.limit) || 10
+    const skip = (page - 1) * limit
+
+    const messages = await Contact.find()
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit)
+
+    const total = await Contact.countDocuments()
+
+    res.status(200).json({
+      success: true,
+      messages,
+      pagination: {
+        page,
+        limit,
+        total,
+        pages: Math.ceil(total / limit)
+      }
+    })
+  } catch (error) {
+    console.error(error)
+    res.status(500).json({ success: false })
+  }
+})
+
 // 404 Handler
 app.use((req, res) => {
   res.status(404).json({
