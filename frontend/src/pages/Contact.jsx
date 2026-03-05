@@ -129,7 +129,7 @@ const Contact = () => {
     setIsSubmitting(true)
 
     try {
-      const response = await axios.post('http://localhost:5000/api/contact', formData, {
+      const response = await axios.post('https://portfolio-website-tubm.vercel.app/api/contact', formData, {
         headers: {
           'Content-Type': 'application/json'
         },
@@ -184,7 +184,7 @@ const Contact = () => {
   const handleNewsletterSubmit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('http://localhost:5000/api/newsletter', { email: newsletterEmail })
+      await axios.post('https://portfolio-website-tubm.vercel.app/api/newsletter', { email: newsletterEmail })
       setNewsletterSubmitted(true)
       setNewsletterEmail('')
       setTimeout(() => setNewsletterSubmitted(false), 5000)
