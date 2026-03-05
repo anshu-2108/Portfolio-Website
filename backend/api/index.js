@@ -2,9 +2,9 @@ const express = require('express')
 const cors = require('cors')
 const nodemailer = require('nodemailer')
 const mongoose = require('mongoose')
-const dotenv = require('dotenv')
+// const dotenv = require('dotenv')
 
-dotenv.config()
+// dotenv.config()
 
 const app = express()
 
