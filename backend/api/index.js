@@ -186,7 +186,14 @@ app.get('/api/messages', async (req, res) => {
   }
 })
 
-
+app.delete('/api/messages/:id', async (req, res) => {
+  try {
+    await Contact.findByIdAndDelete(req.params.id)
+    res.status(200).json({ success: true })
+  } catch (error) {
+    res.status(500).json({ success: false })
+  }
+})
 
 // 404 Handler
 app.use((req, res) => {
