@@ -186,6 +186,59 @@ app.get('/api/messages', async (req, res) => {
   }
 })
 
+// Get unread count
+app.get('/api/messages/unread/count', async (req, res) => {
+  try {
+    const count = await Contact.countDocuments({ status: 'unread' })
+    res.status(200).json({ success: true, count })
+  } catch (error) {
+    res.status(500).json({ success: false })
+  }
+})
+
+
+// Mark as read
+app.patch('/api/messages/:id/read', async (req, res) => {
+  try {
+    const message = await Contact.findByIdAndUpdate(
+      req.params.id,
+      { status: 'read' },
+      { new: true }
+    )
+
+    res.status(200).json({ success: true, message })
+  } catch (error) {
+    res.status(500).json({ success: false })
+  }
+})
+
+
+// Mark as replied
+app.patch('/api/messages/:id/replied', async (req, res) => {
+  try {
+    const message = await Contact.findByIdAndUpdate(
+      req.params.id,
+      { status: 'replied' },
+      { new: true }
+    )
+
+    res.status(200).json({ success: true, message })
+  } catch (error) {
+    res.status(500).json({ success: false })
+  }
+})
+
+
+// Delete message
+app.delete('/api/messages/:id', async (req, res) => {
+  try {
+    await Contact.findByIdAndDelete(req.params.id)
+    res.status(200).json({ success: true })
+  } catch (error) {
+    res.status(500).json({ success: false })
+  }
+})
+
 // 404 Handler
 app.use((req, res) => {
   res.status(404).json({
