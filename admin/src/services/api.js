@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE_URL = 'http://localhost:5000/api' // Your main backend URL
+const API_BASE_URL = 'https://portfolio-website-tubm.vercel.app/api' // Your main backend URL
 
 const api = axios.create({
   baseURL: API_BASE_URL,
