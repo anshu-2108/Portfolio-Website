@@ -25,7 +25,7 @@ const Education = () => {
       institution: "Mrs. KMPM Vocational College",
       location: "Jamshedpur, Jharkhand, India",
       period: "2022 - 2026",
-      gpa: "8.4/10",
+      gpa: "7.2/10",
       description: "Comprehensive foundation in computer science principles, software engineering, and web technologies.",
       achievements: [
         "Most Enthusiastic Candidate",
@@ -59,7 +59,7 @@ const Education = () => {
       institution: "Ramakrishna Mission English School, Sidhgora",
       location: "Jamshedpur, Jharkhand, India",
       period: "2019 - 2020",
-      gpa: "8.5/10",
+      gpa: "7.5/10",
       description: "Completed secondary education with distinction and strong academic performance across all core subjects.",
       achievements: [
         "Top 5 Rank in School",

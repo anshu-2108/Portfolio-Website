@@ -36,7 +36,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (username, password) => {
     try {
       // In production, this would be an API call to your backend
-      if (username === 'admin' && password === 'Admin@123') {
+      if (username === 'admin00@portfolio.com' && password === 'Admin@1234') {
         const adminData = {
           id: 1,
           username: 'admin',
