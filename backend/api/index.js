@@ -74,7 +74,8 @@ if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     status: 'OK',
-    mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected'
+    mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
+    hasMongoUri: !!process.env.MONGODB_URI
   })
 })
 
