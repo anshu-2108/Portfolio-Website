@@ -76,11 +76,12 @@ if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
 // ================= ROUTES =================
 
 // Health Check
-app.get('/api/health', (req, res) => {
+app.get('/api/health', async (req, res) => {
+  await connectDB()
+
   res.status(200).json({
     status: 'OK',
-    mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
-    hasMongoUri: !!process.env.MONGODB_URI
+    mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected'
   })
 })
 
