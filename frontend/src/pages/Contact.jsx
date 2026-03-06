@@ -197,12 +197,12 @@ const Contact = () => {
   const getFieldClassName = (fieldName) => {
     const baseClass = "w-full pl-12 pr-4 py-3 border rounded-xl focus:outline-none text-sm transition-all duration-300"
     if (errors[fieldName] && touchedFields[fieldName]) {
-      return `${baseClass} border-red-500 focus:border-red-500 bg-red-50 text-white dark:bg-red-900/10 dark:border-red-600`
+      return `${baseClass} border-red-500 focus:border-red-500 bg-red-50 dark:text-white dark:bg-red-900/10 dark:border-red-600`
     }
     if (focusedField === fieldName) {
-      return `${baseClass} border-purple-600 ring-2 ring-purple-600/20 text-white dark:border-purple-400`
+      return `${baseClass} border-purple-600 ring-2 ring-purple-600/20 dark:text-white dark:border-purple-400`
     }
-    return `${baseClass} border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-white focus:border-purple-600 dark:focus:border-purple-400`
+    return `${baseClass} border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 dark:text-white focus:border-purple-600 dark:focus:border-purple-400`
   }
 
   const contactInfo = [
